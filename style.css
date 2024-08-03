@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  border-bottom: 4px solid black;
 }
 
 nav > ul {
@@ -82,6 +82,7 @@ footer {
 
 footer > div {
   width: 500px;
+  height: 50px;
   display: flex;
   justify-content: space-between;
 }
